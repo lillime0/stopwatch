@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+body {
+  background: #3d013d;
+  color: #fff;
+  user-select: none;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: clamp(200px, 40%, 500px);
+  min-height: 100vh;
+  margin-inline: auto;
+}
+.timer .digits {
+  font-size: 3rem;
+}
+.control-buttons {
+  margin-block-start: 1.5em;
+}
+.control-buttons button {
+  padding: 0.5em;
+  text-transform: uppercase;
+  background: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 0.15rem solid #fff;
+  border-radius: 1rem;
+}
+.control-buttons .reset-resume-btn > * {
+  margin-inline: 0.5em;
+}
+.control-buttons .start-btn,
+.control-buttons .resume {
+  background: #fff;
+  color: #3d013d;
+}
+.control-buttons .start-btn:where(:hover, :focus),
+.control-buttons .resume:where(:hover, :focus) {
+  background: #3d013d;
+  color: #fff;
+}
+.control-buttons .reset {
+  color: #fff;
+}
+.control-buttons .reset:where(:hover, :focus) {
+  background: #fff;
+  color: #3d013d;
+}
