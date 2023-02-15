@@ -1,5 +1,5 @@
 # Stopwatch clock
 
-Title itself describe what this project is ⏲️😎
+Title itself describes what this project is ⏲️😎
 
-[View website]()
+<!-- [View website]() -->
