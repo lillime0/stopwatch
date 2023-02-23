@@ -8,7 +8,7 @@ export default function StopWatch() {
   const [isPaused, setIsPaused] = useState<boolean>(true);
 
   useEffect(() => {
-    let interval: unknown;
+    let interval: number = 0;
 
     if (isActive && !isPaused) {
       interval = setInterval(() => {
