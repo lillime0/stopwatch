@@ -2,4 +2,4 @@
 
 Title itself describes what this project is ⏲️😎
 
-<!-- [View website]() -->
+[View website](https://stopwatchlite.netlify.app) 
